@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./static/tracker/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
+  <script>var user ='{{ request.user}}';
+   </script>
+</head>
+
+<body>
+   
+  <nav id="navbar">
+    <div class="nav-list">
+   
+          <a id="logo"class="nav-link" id="logo" >Habit Tracker</a> 
+    
+          <div class="nav-right">
+         
+
+            <a class="nav-link" id="home">Home<span class="sr-only"></span></a>
+    
+            <a class="nav-link" id="charts">Progress</a>
+      
+            <a class="nav-link" id="history">History</a>
+          </div>
+  
+
+    </div>
+  </nav>
+
+    <div id="greeting">
+    </div>
+
+    <div class="clr"></div>
+ 
+    <div id="display"></div>
+
+
+    {% if message %}
+    <div class="error">{{ message }}</div>
+    {% endif %}
+  <script type="text/javascript" src="{% static 'tracker/index.js'%}">
+  </script>
+  
+</body>
+</html>

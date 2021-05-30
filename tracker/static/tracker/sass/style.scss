@@ -1,0 +1,367 @@
+$color: #008080;
+$border: 1px solid black;
+.lgn-tag {
+    margin: auto;
+    width: 50%;
+    a {
+        color: blue;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+#login, #register {
+    margin:auto;
+    width: 50%;
+
+    .reg-btn {
+        display: block;
+        width: 100%;
+        margin: 15px;
+        background-color: darken($color, 10%);
+        
+        
+    }
+    .reg-btn:hover {
+        background-color: black;
+    }
+    form {
+        input[type="text"], input[type="password"] {
+            margin-bottom: 10px;
+            width: 100%;
+            border-radius: 5px;
+            padding: 12px 20px;
+            border: 1px solid #ccc;
+            font-size: 15px;
+            display: inline-block;
+            
+        }
+        .label {    
+            font-size: 20px;
+        }
+
+
+
+    }
+}
+.login-btn {
+    width: 100%;
+    margin: 15px;
+    background-color: $color;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+
+    #wrong-pass {
+        margin: auto;
+        width: 100%;
+        border: 2px solid grey;
+        padding: 20px;
+        text-align: center;
+        color: red;
+    } 
+    #greeting {
+
+        
+        p {
+            float: right;
+            font-size: 17px;
+            margin: 10px;
+        }
+    }
+    #skill-div {
+       margin: auto;
+       width: 50%;
+        .skill-button {
+            margin: auto;
+            width: 100%;
+            margin-bottom: 12px;
+            box-shadow: 5px 5px 10px #8c8c8c;
+      
+        }
+    }
+    button, input[type="submit"] {
+        margin: 0 auto;
+        width: 50%;
+        background-color: #4d4d4d;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 7px;
+        display: block;
+  
+        
+    
+    }
+    button:hover {
+        background-color: black;
+        
+    }
+    input[type="submit"]:hover {
+        background-color: black;
+    }
+}
+
+
+#display {
+    // margin: auto;
+    // width: 50%;
+    display: flex;
+    justify-content: center;
+    #skill-name {
+        display: flex;
+        justify-content: center;
+    }
+
+    #habits {
+        margin: auto;
+        width: 50%;
+        //border: 1px solid black;
+        padding: 30px;
+        background-color: white;
+        box-shadow: 10px 10px 10px #8c8c8c;
+
+        div {
+            .box {
+                text-align: center;
+                display: inline-block;
+                margin-right: 20px;
+                position: relative;
+                padding-left: 35px;
+                margin-bottom: 12px;
+                cursor: pointer;
+                font-size: 22px;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                input[type="checkbox"] {
+                    position: absolute;
+                    opacity: 0;
+                    cursor: pointer;
+                    height: 0;
+                    width: 0;
+                    
+                 
+                }
+           
+      
+                input:checked ~.checkmark {
+                    background-color:$color;
+                }
+                input:checked ~.checkmark:after {
+                    display: block;
+                }
+                .checkmark:after {
+                    left: 9px;
+                    top: 5px;
+                    width: 5px;
+                    height: 10px;
+                    border: solid white;
+                    //border: 1px solid black;
+                    border-width: 0 3px 3px 0;
+                    -webkit-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+   
+            }
+            .box:hover input ~.checkmark {
+                background-color:black;
+            }
+ 
+        }
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #eee;
+            //background-color: white;
+            display: block;
+            border: 2px solid black;
+        }
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+        .habit {
+            font-size: 20px;
+            color: green;
+            padding-bottom: 10px;
+            padding-top: 10px;
+   
+        }
+
+    }
+}
+
+
+#ideas {
+    button {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    div {
+        
+        width: 100%;
+        
+    }
+    
+}
+#habit-form {
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    background-color: $color;
+    box-shadow: 10px 10px 10px #8c8c8c;
+
+}
+.container {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    input[type="text"] {
+        margin: 0 10px;
+
+    }
+    #new-skill {
+        padding: 100px;
+        background-color: coral;
+        
+        .select-selected {
+            background-color: DodgerBlue;
+          }
+          .select-selected:after {
+            position: absolute;
+            content: "";
+            top: 14px;
+            right: 10px;
+            width: 0;
+            height: 0;
+            border: 6px solid transparent;
+            border-color: #fff transparent transparent transparent;
+        }
+        .select-selected.select-arrow-active:after {
+            border-color: transparent transparent #fff transparent;
+            top: 7px;
+          }
+        .custom-select {
+            position: relative;
+            font-family: Arial;
+            background-color: DodgerBlue;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            select {
+                display: none;
+            }
+            .select-items {
+                position: absolute;
+                background-color: DodgerBlue;
+                top: 100%;
+                left: 0;
+                right: 0;
+                z-index: 99;
+                div:hover, .same-as-selected {
+                    background-color: rgba(0, 0, 0, 0.1);
+                    }
+
+                div,.select-selected {
+                color: #ffffff;
+                padding: 8px 16px;
+                border: 1px solid transparent;
+                border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+                cursor: pointer;
+                user-select: none;
+            }
+        }
+        .select-hide {
+            display: none;
+          }
+        
+        }
+        input[type="submit"] {
+            margin-left: 10px;
+            padding-right: 45px;
+            padding-left: 40px;
+            
+        }
+    }
+    form {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    
+}
+
+#display {
+    margin-top: 30px;
+    position: relative;
+    display: block;
+}
+
+#navbar {
+    //border: 1px solid black;
+    overflow: hidden;
+    background-color: black;  
+    .nav-list {
+        //padding: 15px;
+        margin:0px;
+        padding: 0px;
+
+        a {
+            //display: block;
+            font-size: 35px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            //border: 1px solid black;
+            padding: 16px 16px;
+            vertical-align: middle;
+            
+     
+        }
+        a:hover {
+            background-color: $color;
+        }
+        .nav-right {
+            float: right;
+            
+            a {
+                float: left;
+                padding-right: 5px;
+                font-size: 22px;
+                display: block;
+                padding: 10px 15px;
+                
+                
+            }
+        }
+    
+    }
+    
+}
+
+.clr {
+    clear: both;
+}
+
+canvas {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
