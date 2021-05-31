@@ -1,26 +1,26 @@
-/* line 3, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
+/* line 3, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .lgn-tag {
   margin: auto;
   width: 50%;
 }
 
-/* line 6, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
+/* line 6, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .lgn-tag a {
   color: blue;
 }
 
-/* line 9, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
+/* line 9, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .lgn-tag a:hover {
   text-decoration: underline;
 }
 
-/* line 13, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
+/* line 13, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #login, #register {
   margin: auto;
   width: 50%;
 }
 
-/* line 17, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
+/* line 17, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #login .reg-btn, #register .reg-btn {
   display: block;
   width: 100%;
@@ -28,12 +28,12 @@
   background-color: #004d4d;
 }
 
-/* line 25, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
+/* line 25, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #login .reg-btn:hover, #register .reg-btn:hover {
   background-color: black;
 }
 
-/* line 29, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
+/* line 29, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #login form input[type="text"], #login form input[type="password"], #register form input[type="text"], #register form input[type="password"] {
   margin-bottom: 10px;
   width: 100%;
@@ -44,19 +44,19 @@
   display: inline-block;
 }
 
-/* line 39, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
+/* line 39, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #login form .label, #register form .label {
   font-size: 20px;
 }
 
-/* line 47, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
+/* line 47, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .login-btn {
   width: 100%;
   margin: 15px;
   background-color: #008080;
 }
 
-/* line 53, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
+/* line 53, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -64,11 +64,7 @@ body {
   padding-bottom: 50px;
 }
 
-<<<<<<< Updated upstream
-/* line 59, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 58, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 59, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 body #wrong-pass {
   margin: auto;
   width: 100%;
@@ -78,32 +74,20 @@ body #wrong-pass {
   color: red;
 }
 
-<<<<<<< Updated upstream
-/* line 70, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 69, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 70, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 body #greeting p {
   float: right;
   font-size: 17px;
   margin: 10px;
 }
 
-<<<<<<< Updated upstream
-/* line 76, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 75, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 76, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 body #skill-div {
   margin: auto;
   width: 50%;
 }
 
-<<<<<<< Updated upstream
-/* line 79, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 78, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 79, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 body #skill-div .skill-button {
   margin: auto;
   width: 100%;
@@ -111,11 +95,7 @@ body #skill-div .skill-button {
   box-shadow: 5px 5px 10px #8c8c8c;
 }
 
-<<<<<<< Updated upstream
-/* line 87, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 86, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 87, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 body button, body input[type="submit"] {
   margin: 0 auto;
   width: 50%;
@@ -130,45 +110,29 @@ body button, body input[type="submit"] {
   display: block;
 }
 
-<<<<<<< Updated upstream
-/* line 103, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 102, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 103, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 body button:hover {
   background-color: black;
 }
 
-<<<<<<< Updated upstream
-/* line 107, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 106, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 107, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 body input[type="submit"]:hover {
   background-color: black;
 }
 
-<<<<<<< Updated upstream
-/* line 113, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 112, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 113, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display {
   display: flex;
   justify-content: center;
 }
 
-<<<<<<< Updated upstream
-/* line 118, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
+/* line 118, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display #skill-name {
   display: flex;
   justify-content: center;
 }
 
-/* line 123, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 119, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 123, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display #habits {
   margin: auto;
   width: 50%;
@@ -177,11 +141,7 @@ body input[type="submit"]:hover {
   box-shadow: 10px 10px 10px #8c8c8c;
 }
 
-<<<<<<< Updated upstream
-/* line 132, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 128, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 132, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display #habits div .box {
   text-align: center;
   display: inline-block;
@@ -197,11 +157,7 @@ body input[type="submit"]:hover {
   user-select: none;
 }
 
-<<<<<<< Updated upstream
-/* line 145, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 141, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 145, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display #habits div .box input[type="checkbox"] {
   position: absolute;
   opacity: 0;
@@ -210,29 +166,17 @@ body input[type="submit"]:hover {
   width: 0;
 }
 
-<<<<<<< Updated upstream
-/* line 156, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 152, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 156, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display #habits div .box input:checked ~ .checkmark {
   background-color: #008080;
 }
 
-<<<<<<< Updated upstream
-/* line 159, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 155, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 159, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display #habits div .box input:checked ~ .checkmark:after {
   display: block;
 }
 
-<<<<<<< Updated upstream
-/* line 162, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 158, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 162, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display #habits div .box .checkmark:after {
   left: 9px;
   top: 5px;
@@ -245,20 +189,12 @@ body input[type="submit"]:hover {
   transform: rotate(45deg);
 }
 
-<<<<<<< Updated upstream
-/* line 176, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 172, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 176, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display #habits div .box:hover input ~ .checkmark {
   background-color: black;
 }
 
-<<<<<<< Updated upstream
-/* line 181, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 177, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 181, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display #habits .checkmark {
   position: absolute;
   top: 0;
@@ -270,22 +206,14 @@ body input[type="submit"]:hover {
   border: 2px solid black;
 }
 
-<<<<<<< Updated upstream
-/* line 192, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 188, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 192, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display #habits .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-<<<<<<< Updated upstream
-/* line 197, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 193, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 197, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display #habits .habit {
   font-size: 20px;
   color: green;
@@ -293,30 +221,18 @@ body input[type="submit"]:hover {
   padding-top: 10px;
 }
 
-<<<<<<< Updated upstream
-/* line 210, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 206, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 210, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #ideas button {
   width: 50%;
   margin-bottom: 10px;
 }
 
-<<<<<<< Updated upstream
-/* line 214, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 210, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 214, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #ideas div {
   width: 100%;
 }
 
-<<<<<<< Updated upstream
-/* line 221, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 217, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 221, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #habit-form {
   margin: auto;
   width: 50%;
@@ -325,50 +241,30 @@ body input[type="submit"]:hover {
   box-shadow: 10px 10px 10px #8c8c8c;
 }
 
-<<<<<<< Updated upstream
-/* line 229, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 225, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 229, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container {
   position: relative;
   display: flex;
   justify-content: center;
 }
 
-<<<<<<< Updated upstream
-/* line 235, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 231, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 235, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container input[type="text"] {
   margin: 0 10px;
 }
 
-<<<<<<< Updated upstream
-/* line 239, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 235, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 239, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container #new-skill {
   padding: 100px;
   background-color: coral;
 }
 
-<<<<<<< Updated upstream
-/* line 243, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 239, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 243, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container #new-skill .select-selected {
   background-color: DodgerBlue;
 }
 
-<<<<<<< Updated upstream
-/* line 246, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 242, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 246, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container #new-skill .select-selected:after {
   position: absolute;
   content: "";
@@ -380,21 +276,13 @@ body input[type="submit"]:hover {
   border-color: #fff transparent transparent transparent;
 }
 
-<<<<<<< Updated upstream
-/* line 256, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 252, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 256, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container #new-skill .select-selected.select-arrow-active:after {
   border-color: transparent transparent #fff transparent;
   top: 7px;
 }
 
-<<<<<<< Updated upstream
-/* line 260, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 256, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 260, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container #new-skill .custom-select {
   position: relative;
   font-family: Arial;
@@ -404,20 +292,12 @@ body input[type="submit"]:hover {
   padding: 10px 0;
 }
 
-<<<<<<< Updated upstream
-/* line 267, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 263, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 267, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container #new-skill .custom-select select {
   display: none;
 }
 
-<<<<<<< Updated upstream
-/* line 270, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 266, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 270, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container #new-skill .custom-select .select-items {
   position: absolute;
   background-color: DodgerBlue;
@@ -427,20 +307,12 @@ body input[type="submit"]:hover {
   z-index: 99;
 }
 
-<<<<<<< Updated upstream
-/* line 277, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 273, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 277, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container #new-skill .custom-select .select-items div:hover, .container #new-skill .custom-select .select-items .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-<<<<<<< Updated upstream
-/* line 281, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 277, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 281, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container #new-skill .custom-select .select-items div, .container #new-skill .custom-select .select-items .select-selected {
   color: #ffffff;
   padding: 8px 16px;
@@ -450,73 +322,45 @@ body input[type="submit"]:hover {
   user-select: none;
 }
 
-<<<<<<< Updated upstream
-/* line 290, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 286, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 290, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container #new-skill .custom-select .select-hide {
   display: none;
 }
 
-<<<<<<< Updated upstream
-/* line 295, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 291, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 295, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container #new-skill input[type="submit"] {
   margin-left: 10px;
   padding-right: 45px;
   padding-left: 40px;
 }
 
-<<<<<<< Updated upstream
-/* line 302, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 298, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 302, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .container form {
   display: flex;
   justify-content: center;
   padding: 30px;
 }
 
-<<<<<<< Updated upstream
-/* line 311, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 307, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 311, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #display {
   margin-top: 30px;
   position: relative;
   display: block;
 }
 
-<<<<<<< Updated upstream
-/* line 317, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 313, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 317, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #navbar {
   overflow: hidden;
   background-color: black;
 }
 
-<<<<<<< Updated upstream
-/* line 321, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 317, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 321, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #navbar .nav-list {
   margin: 0px;
   padding: 0px;
 }
 
-<<<<<<< Updated upstream
-/* line 326, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 322, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 326, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #navbar .nav-list a {
   font-size: 35px;
   color: white;
@@ -526,29 +370,17 @@ body input[type="submit"]:hover {
   vertical-align: middle;
 }
 
-<<<<<<< Updated upstream
-/* line 338, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 334, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 338, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #navbar .nav-list a:hover {
   background-color: #008080;
 }
 
-<<<<<<< Updated upstream
-/* line 341, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 337, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 341, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #navbar .nav-list .nav-right {
   float: right;
 }
 
-<<<<<<< Updated upstream
-/* line 344, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 340, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 344, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 #navbar .nav-list .nav-right a {
   float: left;
   padding-right: 5px;
@@ -557,20 +389,12 @@ body input[type="submit"]:hover {
   padding: 10px 15px;
 }
 
-<<<<<<< Updated upstream
-/* line 359, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 355, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 359, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 .clr {
   clear: both;
 }
 
-<<<<<<< Updated upstream
-/* line 363, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
-=======
-/* line 359, ../../../../../Users/jeff/Desktop/trackerproject/tracker/static/tracker/sass/style.scss */
->>>>>>> Stashed changes
+/* line 363, ../../../../../Users/jeff/Desktop/capstone/tracker/static/tracker/sass/style.scss */
 canvas {
   margin: 50px;
   display: flex;
