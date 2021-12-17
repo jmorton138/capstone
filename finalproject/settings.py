@@ -15,7 +15,7 @@ SECRET_KEY = 'ip28jc1wnq2a%85xbs2p*)sa*&#cxc469x=%q5fmf7dl7s)yqk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['glacial-springs-43992.herokuapp.com']
 
 
 # Application definition
