@@ -113,7 +113,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 # REST_FRAMEWORK = {
@@ -169,17 +169,3 @@ REST_FRAMEWORK = {
 
 
 
-# django-cors-headers==3.7.0
-#   - Django [required: >=2.2, installed: 3.2]
-#     - asgiref [required: >=3.3.2,<4, installed: 3.3.4]
-#       - typing-extensions [required: Any, installed: 3.7.4.3]
-#     - pytz [required: Any, installed: 2021.1]
-#     - sqlparse [required: >=0.2.2, installed: 0.4.1]
-# djangorestframework==3.12.4
-#   - django [required: >=2.2, installed: 3.2]
-#     - asgiref [required: >=3.3.2,<4, installed: 3.3.4]
-#       - typing-extensions [required: Any, installed: 3.7.4.3]
-#     - pytz [required: Any, installed: 2021.1]
-#     - sqlparse [required: >=0.2.2, installed: 0.4.1]
-# djangorestframework-jwt==1.11.0
-#   - PyJWT [required: >=1.5.2,<2.0.0, installed: 1.7.1]
