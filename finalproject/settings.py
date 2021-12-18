@@ -1,6 +1,7 @@
 from pathlib import Path
 from datetime import datetime, timedelta
 import os
+import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -15,7 +16,7 @@ SECRET_KEY = 'ip28jc1wnq2a%85xbs2p*)sa*&#cxc469x=%q5fmf7dl7s)yqk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['glacial-springs-43992.herokuapp.com']
+ALLOWED_HOSTS = ['glacial-springs-43992.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -149,6 +150,8 @@ REST_FRAMEWORK = {
         'tracker.backends.JWTAuthentication',
     ),
 }
+
+django_heroku.settings(locals())
 # SIMPLE_JWT = {
  
 #      # Use JWT 
