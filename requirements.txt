@@ -4,7 +4,7 @@ dj-database-url==0.5.0
 Django
 django-cors-headers==3.7.0
 django-heroku==0.3.1
-django-upgrade==1.4.0
+django-upgrade
 djangorestframework==3.12.4
 djangorestframework-jwt
 gunicorn==20.1.0
