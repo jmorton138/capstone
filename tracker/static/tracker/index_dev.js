@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function get_user() {
-    fetch('https://glacial-springs-43992.herokuapp.com/user', {
+    fetch('http://localhost:8000/user', {
         headers: {
             "Content-Type" : "application/json", 
             "Authorization": `Token ${localStorage.getItem('token')}`,
@@ -90,7 +90,7 @@ function get_user() {
 
 
 function latestSkill(user_id) {
-    fetch(`https://glacial-springs-43992.herokuapp.com/get-latest-skill/${user_id}`)
+    fetch(`http://127.0.0.1:8000/get-latest-skill/${user_id}`)
     .then(response => response.json())
     .then(skill => {
         //console.log('hi');
@@ -117,7 +117,7 @@ function latestSkill(user_id) {
 function latestHabit(user_id) {
     // var skillform = document.getElementById('new-skill');
 
-    fetch(`https://glacial-springs-43992.herokuapp.com/get-latest-habit/${user_id}`)
+    fetch(`http://127.0.0.1:8000/get-latest-habit/${user_id}`)
     .then(response => response.json())
     .then(habit => {
         console.log(habit);
@@ -373,7 +373,7 @@ function display(form) {
 function register(e) {
     e.preventDefault();
     const csrftoken = getCookie('csrftoken');
-    fetch('https://glacial-springs-43992.herokuapp.com/register-users', {
+    fetch('http://127.0.0.1:8000/register-users', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json',
@@ -404,7 +404,7 @@ function register(e) {
 function login(e) {
     e.preventDefault();
     const csrftoken = getCookie('csrftoken');
-    fetch('https://glacial-springs-43992.herokuapp.com/user-login', {
+    fetch('http://127.0.0.1:8000/user-login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -438,7 +438,7 @@ function login(e) {
 
 
 function get_habits(user_id) {
-    fetch(`https://glacial-springs-43992.herokuapp.com/habit-list/${user_id}`)
+    fetch(`http://127.0.0.1:8000/habit-list/${user_id}`)
     .then(response => response.json())
     .then(habits => {
         console.log(habits[0].skilltext);
@@ -483,7 +483,7 @@ function check(user_id, habit_id) {
         box.checked = false;
     }
     }
-    fetch(`https://glacial-springs-43992.herokuapp.com/consistency/${user_id}/${habit_id}`, {
+    fetch(`http://127.0.0.1:8000/consistency/${user_id}/${habit_id}`, {
     method: 'PUT',
     headers: {
         'Content-type': 'application/json',
@@ -510,7 +510,7 @@ function updateCheck(user_id, habit_id, e) {
     } else if (box_value == 'false') {
         box_value = true;
     }
-    fetch(`https://glacial-springs-43992.herokuapp.com/update/${user_id}/${habit_id}`, {
+    fetch(`http://127.0.0.1:8000/update/${user_id}/${habit_id}`, {
         method: 'PUT',
         headers: {
             'Content-type': 'application/json',
@@ -535,7 +535,7 @@ function updateCheck(user_id, habit_id, e) {
 
 
 function highlight_check(user_id, habit_id) {   
-    fetch(`https://glacial-springs-43992.herokuapp.com/habit/${user_id}/${habit_id}`)
+    fetch(`http://127.0.0.1:8000/habit/${user_id}/${habit_id}`)
     .then(response => response.json())
     .then(habit => {
         var date = new Date(habit[0].start_date)
@@ -553,7 +553,7 @@ function highlight_check(user_id, habit_id) {
 }
 
 function get_current_boxes(user_id, habit_id) {
-    fetch(`https://glacial-springs-43992.herokuapp.com/track/${habit_id}`)
+    fetch(`http://127.0.0.1:8000/track/${habit_id}`)
     .then(response => response.json())
     .then(boxes => {
       const checkboxes = document.createElement('div');
@@ -610,7 +610,7 @@ function get_current_boxes(user_id, habit_id) {
 }
 
 function get_boxes(user_id, habit_id) {
-    fetch(`https://glacial-springs-43992.herokuapp.com/track/${habit_id}`)
+    fetch(`http://127.0.0.1:8000/track/${habit_id}`)
     .then(response => response.json())
     .then(boxes => {
       const checkboxes = document.createElement('div');
@@ -669,7 +669,7 @@ function get_boxes(user_id, habit_id) {
 function new_habit(user_id) {
     const csrftoken = getCookie('csrftoken');
     const mini_goal = document.querySelector('#new-habit-text').value;
-    fetch(`https://glacial-springs-43992.herokuapp.com/new-habit/${user_id}`, {
+    fetch(`http://127.0.0.1:8000/new-habit/${user_id}`, {
         method: 'POST',
         headers: {
             'Content-type': 'application/json',
@@ -694,7 +694,7 @@ function new_skill(user_id) {
     const csrftoken = getCookie('csrftoken');
     const  skill = document.getElementById('skilldropdown').value;
     console.log(skill)
-    fetch(`https://glacial-springs-43992.herokuapp.com/new-skill/${user_id}`, {
+    fetch(`http://127.0.0.1:8000/new-skill/${user_id}`, {
         method: 'POST',
         headers: {
             'Content-type': 'application/json',
@@ -724,7 +724,7 @@ function new_skill(user_id) {
 
 function showIdeas(user_id) {
     document.getElementById('idea-button').outerHTML=`<button id="go-back" onclick="goBack(${user_id})">Go Back</button>`;
-    fetch(`https://glacial-springs-43992.herokuapp.com/ideas/${user_id}`)
+    fetch(`http://127.0.0.1:8000/ideas/${user_id}`)
     .then(response => response.json())
     .then(ideas => {
         ideas.forEach(idea => {
@@ -823,7 +823,7 @@ async function getChart(url) {
 async function getChartData(url) {
     console.log(url);
     display.innerHTML = `<canvas id="myChart"></canvas>`;
-    const response = await fetch(`https://glacial-springs-43992.herokuapp.com/${url}`)
+    const response = await fetch(`http://127.0.0.1:8000/${url}`)
     const data = await response.json();
     counter = 0;
     
@@ -844,7 +844,7 @@ function getSkills(user_id) {
     const skills = document.createElement('div');
     skills.id ='skill-div';
     document.querySelector('#display').append(skills)
-    fetch(`https://glacial-springs-43992.herokuapp.com/skills/${user_id}`)
+    fetch(`http://127.0.0.1:8000/skills/${user_id}`)
     .then(response => response.json())
     .then(result => {
         result.forEach(skill => {
