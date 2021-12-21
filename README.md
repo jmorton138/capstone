@@ -28,7 +28,7 @@ The History page allows the user to compare the records/graphs of past skills. T
 
 That way, the data is presented in a way the user will find useful – they can see progress and/or glean useful insights about why they didn’t do so well during certain periods.
 
-## Potential Future Features:
+## Potential future features:
 
 Intro slider explaining to new users how to use the application.
 
